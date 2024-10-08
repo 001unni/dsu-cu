@@ -88,9 +88,9 @@ section {
 }
 
 
-#section1 .container {
+/* #section1 .container {
     bottom: 200px;
-}
+} */
 
 .container {
     bottom: -200px;
