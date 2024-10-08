@@ -37,9 +37,14 @@ div.container {
     position: relative;
     padding: 20px;
     opacity: 0.8;
-    margin: 80px;
     border-radius: 10px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+div.container {
+    max-width: 90%;
+    width: 100%;
+    margin: 20px auto; /* Centering the container */
 }
 
 section {
@@ -87,17 +92,8 @@ section {
     bottom: 200px;
 }
 
-#section2 .container {
-    left: -50px;
-    margin-right: 350px;
-}
-
-#section4 .container, #section5 .container, #section7 .container {
-    bottom: -180px;
-}
-
-#section6 .container {
-    top: -100px
+.container {
+    bottom: -200px;
 }
 
 /* Arrow container */
@@ -117,14 +113,4 @@ section {
     border-bottom: 20px solid transparent;
     border-left: 50px solid red;
     position: relative;
-}
-
-.darrow-container {
-    position: fixed;
-    right: 50px;
-    bottom: 20px;
-    z-index: 100;
-    width: 200px;
-    height: 50px;
-    background-color: #111;
 }
